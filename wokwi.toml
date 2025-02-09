@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/pwm_module_rp2040.uf2'
+elf = 'build/pwm_module_rp2040.elf'

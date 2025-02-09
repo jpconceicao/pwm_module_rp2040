@@ -6,6 +6,8 @@ Este projeto utiliza a Raspberry Pi Pico W para controlar um servomotor por meio
 ## Autor
 **Jorge Palma**
 
+## Link do vídeo:
+- https://drive.google.com/file/d/1Hk1We6PJ8wTeOtNUxqkw4DMgAJujehD8/view?usp=sharing
 
 ## Componentes Utilizados
 - Raspberry Pi Pico W

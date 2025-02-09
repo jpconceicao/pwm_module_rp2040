@@ -1,3 +1,8 @@
+/*
+* Feito por: Jorge Palma
+* Data: 08/02/2025
+*/
+
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
@@ -58,12 +63,14 @@ int main()
         for (int i = DUTY_0; i <= DUTY_180; i+=INCREMENTO)
         {
             pwm_set_gpio_level(PINO_SERVO, i);
+            pwm_set_gpio_level(PIN_LED_RGB, i);
             sleep_ms(10);
         }
 
         for (int i = DUTY_180; i >= DUTY_0; i-=INCREMENTO)
         {
             pwm_set_gpio_level(PINO_SERVO, i);
+            pwm_set_gpio_level(PIN_LED_RGB, i);
             sleep_ms(10);
         }
     }
